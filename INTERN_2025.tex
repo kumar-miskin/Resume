@@ -1,0 +1,98 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Kumar Miskin}
+\lhead{Ph.D. Resume}
+\cfoot{\thepage}
+
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}
+\titleformat{\subsection}[runin]{\bfseries}{}{0em}{}[\hspace{1em}]
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Kumar Miskin}}\\[0.2em]
+    \href{mailto:kmiskin1@jh.edu}{kmiskin1@jh.edu} \quad | \quad 
+    \href{https://www.linkedin.com/in/kumar-miskin/}{LinkedIn} \quad | \quad
+    \href{https://scholar.google.com/citations?hl=en&user=AWJb6VwAAAAJ}{Google Scholar} \quad | \quad
+    \href{https://sites.google.com/view/kumarpmiskin/}{Website}
+\end{center}
+
+\vspace{0.5em}
+\noindent
+\textbf{\large Objective}\\
+Materials science Ph.D. candidate with interdisciplinary training in machine learning and computational physics. Seeking to leverage deep expertise in defect modeling, atomistic simulations, and algorithm development for innovation in materials design and optimization.
+
+\section*{Education}
+\textbf{Johns Hopkins University}, Baltimore, USA \\
+M.S. (2024) and Ph.D. in Materials Science and Engineering (Expected 2026) \\
+Advisor: Prof. Paulette Clancy
+
+\textbf{Indian Institute of Technology Bombay}, Mumbai, India \\
+B.Tech. in Metallurgical Engineering \\
+M.Tech. in Machine Intelligence and Data Science (2022) \\
+Top Ranker in Interdisciplinary Dual Degree Program
+
+\section*{Research Experience}
+\textbf{Graduate Research Assistant} \hfill 2022--Present \\
+\textit{Johns Hopkins University, Baltimore, MD}
+\begin{itemize}[leftmargin=*]
+    \item Investigated defect formation and migration in CsPbBr$_3$ using DFT and Nudged Elastic Band (NEB) calculations; identified low-barrier “domino effect” interstitial pathways enabling self-healing behavior
+    \item Computed defect energetics (formation, migration, activation) for charged and neutral defects to explain conductivity recovery mechanisms under radiation and photo-excitation
+    \item Developed PAL 2.0: a Bayesian optimization framework leveraging physics-informed neural networks and XGBoost-selected descriptors to accelerate discovery of perovskite materials and organic thermoelectrics
+    \item Demonstrated superior sample efficiency over state-of-the-art BayesOpt models on sparse datasets (N $<$ 250); optimized materials with 2--5$\times$ fewer iterations
+    \item Integrated surrogate models with chemical descriptors to improve explainability and generalization in low-data regimes
+\end{itemize}
+
+\section*{Projects \normalfont\normalsize (Selected)}
+\textbf{Master’s Thesis} \hfill IIT Bombay \\
+\textit{Prof. Alankar Alankar} \\
+Predicted phase transformation in NiTi alloys using ML-guided MD (2NN-MEAM) on edge-cracked structures.
+
+\textbf{Bachelor’s Thesis} \hfill IIT Bombay \\
+\textit{Prof. M. P. Gururajan} \\
+Modeled Suzuki effect in Cu-Al alloys using hybrid MD-MC to quantify impact on stacking fault energy.
+
+\section*{Publications}
+\begin{itemize}[leftmargin=*]
+    \item Miskin K., et al. \textit{Low energy pathways lead to self-healing defects in CsPbBr$_3$}, 2024 (Under Revision)
+    \item Sharma M.P.*, Romiluyi S.*, Wang G., Miskin K., et al. \textit{PAL 2.0: A Physics-Driven Bayesian Optimization Framework for Material Discovery}, Materials Horizons, 2024
+    \item Miskin K., et al. \textit{High-energy radiation effect on perovskites: Simulation of the space environment}, 2024 (In Preparation)
+\end{itemize}
+
+\section*{Teaching and Mentoring}
+\textbf{Graduate Teaching Assistant} \hfill Johns Hopkins University, 2023--2024 \\
+\begin{itemize}[leftmargin=*]
+    \item Courses: Computational Materials Modeling, Phase Transformations, Modeling Soft/Biomaterials
+\end{itemize}
+\textbf{Graduate Mentor} \hfill 2023--Present \\
+Advised 3 undergraduate and 1 master's student on research projects in computational materials science.
+
+\section*{Awards and Fellowships}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*]
+    \item Kai Pan and Li Wang Fellowship
+    \item Donald S. Rodbell Memorial Fellowship
+    \item Robert B. Pond, Sr. Fellowship
+    \item Edwin D. Lowthian Endowed Fellowship
+    \item KVPY Fellowship (India)
+    \item NTSE Scholar (India)
+    \item Top 1\% NSEP (India)
+\end{itemize}
+\end{multicols}
+
+\section*{Skills}
+\textbf{Simulation:} DFT (Quantum ESPRESSO, VASP), NEB, Molecular Dynamics (LAMMPS) \\
+\textbf{ML Tools:} Python, XGBoost, PyTorch, Scikit-learn, Bayesian Optimization \\
+\textbf{Visualization:} VESTA, OVITO, Matplotlib, ParaView
+
+\vspace{1em}
+\noindent\textit{Full references and portfolio available at:} \href{https://sites.google.com/view/kumarpmiskin/}{https://sites.google.com/view/kumarpmiskin/}
+
+\end{document}

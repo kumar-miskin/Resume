@@ -1,0 +1,55 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Choose bibliography style for formatting list of publications
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false,defernumbers=true,uniquename=init]{biblatex}
+\bibliography{papers}
+
+% \RequirePackage[backend=biber,bibstyle=apa,sorting=ydnt,uniquename=init,maxnames=7,defernumbers=true]{biblatex}
+% \addbibresource{papers}
+% \DeclareLanguageMapping{british}{british-apa}
+
+% \addbibresource{papers.bib}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{black}
+
+% More predefined colors can be found in 
+% https://en.wikibooks.org/wiki/LaTeX/Colors
+% Example photograph taken from Wikimedia Commons
+% https://commons.wikimedia.org/wiki/File:Kiara_Krit_passport.jpg
+
+\usepackage{simplecv}
+
+\boldname{Miskin}{Kumar}{M.}
+
+\begin{document}
+
+% Heading
+\headinginline{\textbf{Kumar Miskin}}{
+   \underline{Website}: \href{https://sites.google.com/view/kumarpmiskin/}{Kumar-Miskin} \\ 
+    \underline{Email}: \email{kmiskin1@jh.edu}\\
+    \underline{Linkedin} : \linkedin{kumar-miskin}
+    \underline{\href{https://scholar.google.com/citations?hl=en&user=AWJb6VwAAAAJ}{Google Scholar}}
+    % \underline{Address:} 104 S Wright Street, \\
+    % Talbot Laboratory, Room 302 E, \\
+    % Urbana, IL-61801, USA
+%    LinkedIn: \linkedin{name-surname} \\
+%    GitHub: \github{example}
+}
+
+% \headingphoto{Name Surname}{
+%     Website: \website{example.com} \\ 
+%     Email: \email{example@example.edu} \\
+%     LinkedIn: \linkedin{name-surname} \\
+%     GitHub: \github{example}
+% }{photo.jpg}
+
+\import{sections/}{education.tex}
+\import{sections/}{experience.tex}
+\import{sections/}{awards.tex}
+\import{sections/}{publications.tex}
+% \newpage
+\import{sections/}{teaching.tex}
+\import{sections/}{leadership.tex}
+
+\end{document}
